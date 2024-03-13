@@ -53,8 +53,13 @@ p {
     color: white;
 }
 
+.btn-blue:hover{
+    background-color: #296fd9;
+    color: white;
+}
+
 .btn-primary {
-    background-color: #867EE8;
+    background-color: #867EE8!important;
 }
 
 .btn-primary:hover {
@@ -302,7 +307,6 @@ a.nav-link {
 .team-section .card {
     color: white;
     background-color: #001926;
-    border-radius: 16px;
 }
 
 .team-section .image-wrapper {
@@ -364,6 +368,10 @@ a.nav-link {
     .product-cards-layout {
         padding: 60px;
     }
+    .product-section .row {
+        margin-left:0;
+        margin-right:0;
+    }
 }
 
 @media screen and (max-width:767.98px) {
@@ -382,6 +390,11 @@ a.nav-link {
 
     .product-cards-layout {
         padding: 45px;
+    }
+
+    .product-section .row {
+        margin-left:0;
+        margin-right:0;
     }
 }
 
@@ -440,9 +453,12 @@ a.nav-link {
     .mt-5 {
         margin-top: 40px !important;
     }
-
+.roadmap-section .card{
+    padding: 16px;
+}
+    
     .product-cards-layout {
-        padding: 30px;
+        padding: 24px;
     }
 
     .modal-dialog {
