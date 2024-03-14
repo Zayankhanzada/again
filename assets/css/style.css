@@ -68,8 +68,8 @@ p {
 .btn-seceondary {
     background-color: #29D9D0;
     color: #06111C;
+  font-weight: 600;
 }
-
 .btn-seceondary:hover {
     background-color: #23C1BF;
     color: #06111C;
